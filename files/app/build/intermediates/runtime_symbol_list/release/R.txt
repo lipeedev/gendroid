@@ -1,4 +1,0 @@
-int id buttonLogin 0x7f010000
-int id editTextPassword 0x7f010001
-int id editTextUsername 0x7f010002
-int layout activity_main 0x7f020000
