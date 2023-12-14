@@ -50,6 +50,12 @@ gendroid create
 generate the APK using
 ```sh
 ./gradlew assemble
+
+./gradlew assembleDebug
+
+./gradlew assembleRelease
 ```
+
+> use assembleDebug during development
 
 APK file is on **app/build/outputs/apk/** folder
