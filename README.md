@@ -59,3 +59,18 @@ generate the APK using
 > use assembleDebug during development
 
 APK file is on **app/build/outputs/apk/** folder
+
+##
+
+## Setting up IDE
+
+- install [LunarVim (Neovim)](https://www.lunarvim.org/docs/installation)
+
+- use this plugin to get autocomplete on LSP
+
+```lua
+lvim.plugins = {
+  "hsanson/vim-android"
+}
+```
+
