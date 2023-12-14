@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="lib" path="/home/lipe/.gradle/caches/transforms-3/3e0362fe867ec0c0c54b6fa11064127c/transformed/constraintlayout-2.1.4-api.jar"/>
+	<classpathentry kind="lib" path="/home/lipe/android-sdk/build-tools/33.0.2-2/core-lambda-stubs.jar"/>
+	<classpathentry kind="lib" path="/home/lipe/android-sdk/platforms/android-34/android.jar"/>
+	<classpathentry kind="lib" path="/home/lipe/projetos/android-termux/files/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar"/>
+	<classpathentry kind="lib" path="/home/lipe/projetos/android-termux/files/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debugAndroidTest/R.jar"/>
+	<classpathentry kind="lib" path="/home/lipe/projetos/android-termux/files/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"/>
+	<classpathentry kind="lib" path="/home/lipe/projetos/android-termux/files/app/build/intermediates/compile_app_classes_jar/debug/classes.jar"/>
+	<classpathentry kind="lib" path="/home/lipe/projetos/android-termux/files/app/build/intermediates/javac/debug/classes"/>
+	<classpathentry kind="lib" path="/home/lipe/projetos/android-termux/files/app/build/intermediates/javac/debugAndroidTest/classes"/>
+	<classpathentry kind="lib" path="/home/lipe/projetos/android-termux/files/app/build/intermediates/javac/release/classes"/>
+	<classpathentry kind="lib" path="."/>
+</classpath>

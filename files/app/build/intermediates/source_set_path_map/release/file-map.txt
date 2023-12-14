@@ -1,0 +1,8 @@
+com.name.myapp-pngs-0 /home/lipe/projetos/template/app/build/generated/res/pngs/release
+com.name.myapp-resValues-1 /home/lipe/projetos/template/app/build/generated/res/resValues/release
+com.name.myapp-rs-2 /home/lipe/projetos/template/app/build/generated/res/rs/release
+com.name.myapp-mergeReleaseResources-3 /home/lipe/projetos/template/app/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.name.myapp-mergeReleaseResources-4 /home/lipe/projetos/template/app/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.name.myapp-merged_res-5 /home/lipe/projetos/template/app/build/intermediates/merged_res/release
+com.name.myapp-main-6 /home/lipe/projetos/template/app/src/main/res
+com.name.myapp-release-7 /home/lipe/projetos/template/app/src/release/res

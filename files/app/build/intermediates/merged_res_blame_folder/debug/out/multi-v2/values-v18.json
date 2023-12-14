@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.name.myapp-mergeDebugResources-7:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/home/lipe/.gradle/caches/transforms-3/9fab271aaa753d530234b03588fc18cc/transformed/appcompat-1.2.0/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

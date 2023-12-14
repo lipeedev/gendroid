@@ -1,0 +1,28 @@
+plugins {
+  id 'com.android.application'
+}
+
+dependencies {
+  implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+}
+
+android {
+    namespace '(APP_ID)' 
+
+    compileSdkVersion 34
+    buildToolsVersion "33.0.2"
+    defaultConfig {
+        applicationId '(APP_ID)' 
+        minSdkVersion 16 
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'),
+            'proguard-rules.pro'
+        }
+    }
+}

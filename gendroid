@@ -1,0 +1,26 @@
+#!/bin/sh
+
+source "$(dirname $0)/create.sh"
+source "$(dirname $0)/install-sdk.sh"
+
+start_time=$(date +%s)
+
+case $1 in
+  create)
+    create
+    end_time=$(date +%s)
+    printf ">> Done! %.2fs" $((end_time - start_time))
+    ;;
+
+  install-sdk)
+    install
+    end_time=$(date +%s)
+    printf ">> Done! %.2fs" $((end_time - start_time))
+    ;;
+  *)
+    
+    printf ">> invalid command.\nuse 'gendroid create' | 'gendroid install-sdk'"
+    ;;
+esac
+
+

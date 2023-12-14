@@ -1,0 +1,44 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.name.myapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/lipe/projetos/template/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/home/lipe/projetos/template/app/src/main/AndroidManifest.xml
+10
+11    <!-- set label name for app -->
+12    <application
+12-->/home/lipe/projetos/template/app/src/main/AndroidManifest.xml:4:5-13:19
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.2] /home/lipe/.gradle/caches/transforms-3/d79063cc4bfb983d188111ba44891bb7/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:label="myapp" >
+15-->/home/lipe/projetos/template/app/src/main/AndroidManifest.xml:4:18-39
+16
+17        <!-- it contains one activity -->
+18        <activity
+18-->/home/lipe/projetos/template/app/src/main/AndroidManifest.xml:6:9-12:20
+19            android:name="com.name.myapp.MainActivity"
+19-->/home/lipe/projetos/template/app/src/main/AndroidManifest.xml:6:19-47
+20            android:exported="true" >
+20-->/home/lipe/projetos/template/app/src/main/AndroidManifest.xml:6:48-71
+21
+22            <!-- it contains a launcher activity -->
+23            <intent-filter>
+23-->/home/lipe/projetos/template/app/src/main/AndroidManifest.xml:8:13-11:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->/home/lipe/projetos/template/app/src/main/AndroidManifest.xml:9:17-68
+24-->/home/lipe/projetos/template/app/src/main/AndroidManifest.xml:9:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->/home/lipe/projetos/template/app/src/main/AndroidManifest.xml:10:17-76
+26-->/home/lipe/projetos/template/app/src/main/AndroidManifest.xml:10:27-74
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest>
