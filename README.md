@@ -51,3 +51,5 @@ generate the APK using
 ```sh
 ./gradlew assemble
 ```
+
+APK file is on **app/build/outputs/apk/** folder
