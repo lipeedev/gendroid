@@ -4,7 +4,7 @@ _Create Android projects directly from your Termux or Linux without installing A
 ## Requirements 
 You need to have these tools installed 
 - jdk 17
-- gradle
+- gradle 7.6.3
 - git
 - wget
 - unzip
