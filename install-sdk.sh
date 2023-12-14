@@ -1,8 +1,8 @@
 #!/bin/sh 
 
 function install () {
- if ! [ -v ANDROID_HOME ]; then 
-    echo ">> ANDROID_HOME is already exported."
+ if [ -v ANDROID_HOME ]; then 
+    echo ">> ANDROID_HOME is already set."
     exit 1
  fi
 
