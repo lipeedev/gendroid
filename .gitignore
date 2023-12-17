@@ -1,4 +1,7 @@
-./files/app/build
-./files/app/.classpath 
-./files/app/.project 
+./files/java/app/build
+./files/java/app/.classpath 
+./files/java/app/.project 
 
+./files/kotlin/app/build
+./files/kotlin/app/.classpath 
+./files/kotlin/app/.project 
