@@ -3,8 +3,8 @@ _Create Android projects directly from your Termux or Linux without installing A
 
 ## Requirements 
 You need to have these tools installed 
-- jdk 17
-- gradle 7.6.3
+- jdk 17+
+- gradle 7.6.3+
 - git
 - wget
 - unzip
@@ -75,3 +75,11 @@ lvim.plugins = {
 }
 ```
 
+##
+
+## Editing UI (mobile)
+- install [LayoutEditor](https://github.com/itsvks19/LayoutEditor)
+
+- make your Layout / Screen 
+
+- export or copy xml generated code and put on **res** directory of your app
