@@ -42,7 +42,7 @@ read -p "This project uses Kotlin? [y/N] " is_kotlin
     *)
     
   cp -r $files_dir/* $app_name
-  sed -i "s#(APP_PACKAGE)#$package#g" $app_name/app/src/main/java/MainActivity.kt
+  sed -i "s#(APP_PACKAGE)#$package#g" $app_name/app/src/main/java/MainActivity.java
   package_dir=$app_name/app/src/main/java/$(echo $package | sed "s/\./\//g")
   default_package_dir=$app_name/app/src/main/java
    
