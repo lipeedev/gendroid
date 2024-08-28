@@ -78,7 +78,7 @@ lvim.plugins = {
 ##
 
 ## Editing UI (mobile)
-- install [LayoutEditor](https://github.com/itsvks19/LayoutEditor)
+- install [LayoutEditor](https://apt.izzysoft.de/fdroid/index/apk/com.itsvks.layouteditor)
 
 - make your Layout / Screen 
 
